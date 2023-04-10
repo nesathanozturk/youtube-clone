@@ -1,13 +1,15 @@
 import Navbar from "./components/Navbar";
-import Main from "./components/Main";
+import Content from "./components/Content";
 import Sidebar from "./components/Sidebar";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Main />
-      <Sidebar />
+      <div className="wrapper">
+        <Sidebar />
+        <Content />
+      </div>
     </>
   );
 };

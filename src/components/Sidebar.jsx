@@ -2,7 +2,7 @@ import SidebarBox from "./SidebarBox";
 
 const Sidebar = () => {
   return (
-    <aside className="w-[15%] h-full fixed top-16 left-0 p-4 overflow-y-auto mt-2">
+    <aside className="w-[15%] h-full fixed left-0 top-20 p-4">
       <div className="w-full">
         <SidebarBox />
         <SidebarBox />

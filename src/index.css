@@ -4,9 +4,23 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body,
+#root {
+  @apply h-full antialiased;
+}
+
 body {
-  height: 100vh;
   background: #0f0f0f;
   font-family: "Roboto", sans-serif;
   position: relative;
+}
+
+.wrapper {
+  height: calc(100% - theme("spacing.24"));
+  @apply flex;
+}
+
+.box-color:hover {
+  background: rgba(255, 255, 255, 0.2);
 }

@@ -6,7 +6,7 @@ import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 
 const Navbar = () => {
   return (
-    <nav className="px-6">
+    <nav className="px-6 sticky top-0">
       <div className="w-full flex justify-between items-center">
         <div className="flex justify-center items-center">
           <span className="w-10 h-10 flex justify-center items-center rounded-full hover:bg-youtube-hover">
@@ -67,6 +67,62 @@ const Navbar = () => {
             className="w-8 h-8 rounded-full cursor-pointer"
           />
         </div>
+      </div>
+      <div className="flex justify-start items-center gap-3 ml-[300px] text-white text-sm font-medium">
+        <a
+          href=""
+          className="w-16 h-[1.8rem] bg-white text-center rounded-lg p-1 text-black"
+        >
+          Tümü
+        </a>
+        <a
+          href=""
+          className="w-16 h-[1.8rem] bg-[#272727] text-center rounded-lg pt-1 box-color transition-colors"
+        >
+          Mix'ler
+        </a>
+        <a
+          href=""
+          className="w-16 h-[1.8rem] bg-[#272727] text-center rounded-lg pt-1 box-color transition-colors"
+        >
+          Müzik
+        </a>
+        <a
+          href=""
+          className="w-16 h-[1.8rem] bg-[#272727] text-center rounded-lg pt-1 box-color transition-colors"
+        >
+          Oyun
+        </a>
+        <a
+          href=""
+          className="w-16 h-[1.8rem] bg-[#272727] text-center rounded-lg pt-1 box-color transition-colors"
+        >
+          Canlı
+        </a>
+        <a
+          href=""
+          className="w-16 h-[1.8rem] bg-[#272727] text-center rounded-lg pt-1 box-color transition-colors"
+        >
+          Futbol
+        </a>
+        <a
+          href=""
+          className="w-32 h-[1.8rem] bg-[#272727] text-center rounded-lg pt-1 box-color transition-colors"
+        >
+          Son Yüklenenler
+        </a>
+        <a
+          href=""
+          className="w-24 h-[1.8rem] bg-[#272727] text-center rounded-lg pt-1 box-color transition-colors"
+        >
+          İzlenenler
+        </a>
+        <a
+          href=""
+          className="w-24 h-[1.8rem] bg-[#272727] text-center rounded-lg pt-1 box-color transition-colors"
+        >
+          Yeni öneriler
+        </a>
       </div>
     </nav>
   );
