@@ -14,8 +14,12 @@ const Navbar = () => {
               sx={{ fontSize: "26px", color: "white", cursor: "pointer" }}
             />
           </span>
-          <a href="https://youtube.com" title="YouTube Ana Sayfası">
-            <img src={logo} alt="YouTube" width={150} height={170} />
+          <a
+            href="https://youtube.com"
+            title="YouTube Ana Sayfası"
+            className="w-48"
+          >
+            <img src={logo} alt="YouTube" className="w-full" />
           </a>
         </div>
         <div className="flex justify-center items-center gap-2">
