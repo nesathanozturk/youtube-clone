@@ -2,7 +2,7 @@ import SidebarBox from "./SidebarBox";
 
 const Sidebar = () => {
   return (
-    <aside className="bg-youtube hidden xs:block xs:w-[80px] xs:h-full 2xl:w-[15%]">
+    <aside className="bg-youtube hidden xs:block xs:top-20 xs:z-50 xs:fixed xs:left-0 bottom-0 xs:w-[80px] xs:h-full 2xl:w-[15%]">
       <div className="container">
         <SidebarBox />
         <div className="hidden 2xl:flex text-[0.8rem] text-[#a4a4a4] font-medium flex-wrap gap-1 mb-4 p-1">

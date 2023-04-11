@@ -1,12 +1,11 @@
 import MenuIcon from "@mui/icons-material/Menu";
-import logo from "../assets/logo.png";
 import SearchIcon from "@mui/icons-material/Search";
 import MicIcon from "@mui/icons-material/Mic";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 
 const Navbar = () => {
   return (
-    <nav className="w-full bg-youtube py-2 px-4 md:px-6">
+    <nav className="w-full fixed top-0 bg-youtube py-2 px-4 md:px-6">
       <div className="w-full flex justify-between items-center">
         <div className="flex justify-center items-center gap-x-4 mr-4 md:mr-0">
           <span className="w-10 h-10 flex justify-center items-center rounded-full hover:bg-youtube-hover">
