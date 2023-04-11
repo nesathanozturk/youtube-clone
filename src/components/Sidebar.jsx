@@ -2,14 +2,9 @@ import SidebarBox from "./SidebarBox";
 
 const Sidebar = () => {
   return (
-    <aside className="bg-youtube w-[80px] h-full 2xl:w-[15%]">
+    <aside className="bg-youtube hidden xs:block xs:w-[80px] xs:h-full 2xl:w-[15%]">
       <div className="container">
         <SidebarBox />
-        {/* <SidebarBox />
-        <SidebarBox />
-        <SidebarBox />
-        <SidebarBox />
-        <SidebarBox /> */}
         <div className="hidden 2xl:flex text-[0.8rem] text-[#a4a4a4] font-medium flex-wrap gap-1 mb-4 p-1">
           <a href="https://about.youtube/">Hakkında</a>
           <a href="https://blog.youtube/">Basın</a>

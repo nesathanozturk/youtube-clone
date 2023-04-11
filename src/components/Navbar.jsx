@@ -11,7 +11,11 @@ const Navbar = () => {
         <div className="flex justify-center items-center gap-x-4 mr-4 md:mr-0">
           <span className="w-10 h-10 flex justify-center items-center rounded-full hover:bg-youtube-hover">
             <MenuIcon
-              sx={{ fontSize: "26px", color: "white", cursor: "pointer" }}
+              sx={{
+                fontSize: "26px",
+                color: "white",
+                cursor: "pointer",
+              }}
             />
           </span>
           <a

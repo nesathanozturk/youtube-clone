@@ -9,10 +9,9 @@ const SidebarBox = () => {
           style={{
             pointerEvents: "none",
             display: "block",
-            width: "25px",
-            height: "25px",
           }}
           fill="#fff"
+          className="w-5 h-5 md:w-6 md:h-6"
         >
           <g class="style-scope yt-icon">
             <path
@@ -23,7 +22,7 @@ const SidebarBox = () => {
         </svg>
         <a
           href="/"
-          className="text-white text-center mt-1 font-medium text-[.65rem] 2xl:text-base whitespace-nowrap"
+          className="text-white text-center mt-1 font-medium text-[.55rem] md:text-[.65rem] 2xl:text-base whitespace-nowrap"
         >
           Ana Sayfa
         </a>
@@ -36,10 +35,9 @@ const SidebarBox = () => {
           style={{
             pointerEvents: "none",
             display: "block",
-            width: "25px",
-            height: "25px",
           }}
           fill="#fff"
+          className="w-5 h-5 md:w-6 md:h-6"
         >
           <g
             height="24"
@@ -55,7 +53,7 @@ const SidebarBox = () => {
         </svg>
         <a
           href="/"
-          className="text-white text-center mt-1 text-[.65rem] 2xl:text-base"
+          className="text-white text-center mt-1 text-[.55rem] md:text-[.65rem] 2xl:text-base"
         >
           Shorts
         </a>
@@ -68,10 +66,9 @@ const SidebarBox = () => {
           style={{
             pointerEvents: "none",
             display: "block",
-            width: "25px",
-            height: "25px",
           }}
           fill="#fff"
+          className="w-5 h-5 md:w-6 md:h-6"
         >
           <g class="style-scope yt-icon">
             <path
@@ -82,7 +79,7 @@ const SidebarBox = () => {
         </svg>
         <a
           href="/"
-          className="text-white text-center mt-1 text-[.65rem] 2xl:text-base"
+          className="text-white text-center mt-1 text-[.55rem] md:text-[.65rem] 2xl:text-base"
         >
           Abonelikler
         </a>
@@ -95,10 +92,9 @@ const SidebarBox = () => {
           style={{
             pointerEvents: "none",
             display: "block",
-            width: "25px",
-            height: "25px",
           }}
           fill="#fff"
+          className="w-5 h-5 md:w-6 md:h-6"
         >
           <g class="style-scope yt-icon">
             <path
@@ -109,7 +105,7 @@ const SidebarBox = () => {
         </svg>
         <a
           href="/"
-          className="text-white text-center mt-1 text-[.65rem] 2xl:text-base"
+          className="text-white text-center mt-1 text-[.55rem] md:text-[.65rem] 2xl:text-base"
         >
           Originals
         </a>
@@ -122,9 +118,8 @@ const SidebarBox = () => {
           style={{
             pointerEvents: "none",
             display: "block",
-            width: "25px",
-            height: "25px",
           }}
+          className="w-5 h-5 md:w-6 md:h-6"
           fill="#fff"
         >
           <g class="style-scope yt-icon">
@@ -136,7 +131,7 @@ const SidebarBox = () => {
         </svg>
         <a
           href="/"
-          className="text-white text-[.65rem] mt-1 text-center 2xl:text-base whitespace-nowrap"
+          className="text-white text-[.55rem] md:text-[.65rem] mt-1 text-center 2xl:text-base whitespace-nowrap"
         >
           YouTube Music
         </a>
@@ -149,9 +144,8 @@ const SidebarBox = () => {
           style={{
             pointerEvents: "none",
             display: "block",
-            width: "25px",
-            height: "25px",
           }}
+          className="w-5 h-5 md:w-6 md:h-6"
           fill="#fff"
         >
           <g class="style-scope yt-icon">
@@ -163,7 +157,7 @@ const SidebarBox = () => {
         </svg>
         <a
           href="/"
-          className="text-white text-center mt-1 text-[.65rem] 2xl:text-base"
+          className="text-white text-center mt-1 text-[.55rem] md:text-[.65rem] 2xl:text-base"
         >
           Kitaplık
         </a>
