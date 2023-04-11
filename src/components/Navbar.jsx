@@ -141,7 +141,7 @@ const Navbar = () => {
           />
         </div>
       </div>
-      {/* <div className="flex justify-start items-center gap-3 ml-[300px] text-white text-sm font-medium pb-4">
+      <div className="w-full mt-6 hidden sm:flex items-center gap-3 ml-[70px] text-white text-sm font-medium pb-4 overflow-hidden">
         <a
           href=""
           className="w-16 h-[1.8rem] bg-white text-center rounded-lg p-1 text-black"
@@ -196,7 +196,7 @@ const Navbar = () => {
         >
           Yeni öneriler
         </a>
-      </div> */}
+      </div>
     </nav>
   );
 };
