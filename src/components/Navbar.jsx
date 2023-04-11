@@ -6,7 +6,7 @@ import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 
 const Navbar = () => {
   return (
-    <nav className="px-6 sticky top-0">
+    <nav className="w-full bg-youtube px-4 md:px-6">
       <div className="w-full flex justify-between items-center">
         <div className="flex justify-center items-center">
           <span className="w-10 h-10 flex justify-center items-center rounded-full hover:bg-youtube-hover">
@@ -17,28 +17,34 @@ const Navbar = () => {
           <a
             href="https://youtube.com"
             title="YouTube Ana Sayfası"
-            className="w-48"
+            className="max-w-sm w-28 md:w-32"
           >
             <img src={logo} alt="YouTube" className="w-full" />
           </a>
         </div>
-        <div className="flex justify-center items-center gap-2">
-          <div className="flex justify-center items-center w-[600px] ">
+        <div className="w-[53%] hidden md:flex justify-center items-center gap-2 mr-10">
+          <div className="w-full flex justify-center items-center">
             <input
               type="text"
-              className="bg-[#121212] p-2 rounded-l-full w-full text-white pl-5 focus:outline-none border border-[#303030] active:border focus:border-blue-600 placeholder:text-[#808080]"
+              className="bg-[#121212] p-2 rounded-l-full hidden md:block md:w-full text-white pl-5 focus:outline-none border border-[#303030] active:border focus:border-blue-600 placeholder:text-[#808080]"
               placeholder="Ara"
             />
-            <span className="w-[4rem] p-[0.57rem] flex justify-center items-center rounded-r-full bg-[#222222] cursor-pointer">
+            <span className="w-[4rem] p-[0.57rem] hidden md:flex justify-center items-center rounded-r-full bg-[#222222] cursor-pointer">
               <SearchIcon className="cursor-pointer text-[#f4f4f4]" />
             </span>
           </div>
-          <span className="w-10 h-10 flex justify-center items-center rounded-full bg-[#191919] text-white cursor-pointer hover:bg-youtube-hover transition-all">
+          <span className="w-10 h-10 hidden md:flex justify-center items-center rounded-full bg-[#191919] text-white cursor-pointer hover:bg-youtube-hover transition-all">
             <MicIcon size={20} />
           </span>
         </div>
-        <div className="flex justify-center items-center gap-5">
-          <span className="w-10 h-10 flex justify-center items-center rounded-full cursor-pointer hover:bg-youtube-hover">
+        <div className="flex justify-center items-center gap-2 md:gap-3">
+          <span className="w-12 h-10 md:w-10 flex justify-center items-center rounded-full hover:bg-youtube-hover md:hidden cursor-pointer">
+            <SearchIcon className="cursor-pointer text-[#f4f4f4]" />
+          </span>
+          <span className="w-12 h-10 md:w-10 p-1 max-xs:hidden flex md:hidden  justify-center items-center bg-[#191919] text-white cursor-pointer hover:bg-youtube-hover transition-all">
+            <MicIcon size={20} />
+          </span>
+          <span className="w-12 h-10 md:w-10 flex justify-center items-center rounded-full cursor-pointer hover:bg-youtube-hover">
             <svg
               viewBox="0 0 24 24"
               preserveAspectRatio="xMidYMid meet"
@@ -55,7 +61,7 @@ const Navbar = () => {
               </g>
             </svg>
           </span>
-          <span className="w-10 h-10 flex justify-center items-center rounded-full hover:bg-youtube-hover">
+          <span className="w-12 h-10 md:w-10 flex justify-center items-center rounded-full hover:bg-youtube-hover">
             <NotificationsNoneIcon
               size={20}
               className="text-white cursor-pointer"
@@ -68,7 +74,7 @@ const Navbar = () => {
           />
         </div>
       </div>
-      <div className="flex justify-start items-center gap-3 ml-[300px] text-white text-sm font-medium">
+      {/* <div className="flex justify-start items-center gap-3 ml-[300px] text-white text-sm font-medium pb-4">
         <a
           href=""
           className="w-16 h-[1.8rem] bg-white text-center rounded-lg p-1 text-black"
@@ -123,7 +129,7 @@ const Navbar = () => {
         >
           Yeni öneriler
         </a>
-      </div>
+      </div> */}
     </nav>
   );
 };

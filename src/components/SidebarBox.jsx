@@ -1,7 +1,7 @@
 const SidebarBox = () => {
   return (
-    <div className="flex justify-center flex-col border-b border-[#565656] mb-4 p-1">
-      <span className="flex items-center gap-7 bg-youtube-hover p-2 rounded-lg cursor-pointer">
+    <div className="flex justify-center items-center flex-col gap-3 2xl:border-b 2xl:border-[#565656] mb-4">
+      <span className="flex flex-col items-center justify-center 2xl:flex-row gap-0 2xl:gap-7 p-2 2xl:bg-youtube-hover rounded-lg cursor-pointer hover:bg-youtube-hover">
         <svg
           viewBox="0 0 24 24"
           preserveAspectRatio="xMidYMid meet"
@@ -21,11 +21,14 @@ const SidebarBox = () => {
             ></path>
           </g>
         </svg>
-        <a href="/" className="text-white font-medium">
+        <a
+          href="/"
+          className="text-white text-center mt-1 font-medium text-[.65rem] 2xl:text-base whitespace-nowrap"
+        >
           Ana Sayfa
         </a>
       </span>
-      <span className="flex items-center gap-7 hover:bg-youtube-hover p-2 rounded-lg cursor-pointer">
+      <span className="flex flex-col items-center 2xl:flex-row gap-0 2xl:gap-7 hover:bg-youtube-hover p-2 rounded-lg cursor-pointer">
         <svg
           viewBox="0 0 24 24"
           preserveAspectRatio="xMidYMid meet"
@@ -50,11 +53,14 @@ const SidebarBox = () => {
             ></path>
           </g>
         </svg>
-        <a href="/" className="text-white">
+        <a
+          href="/"
+          className="text-white text-center mt-1 text-[.65rem] 2xl:text-base"
+        >
           Shorts
         </a>
       </span>
-      <span className="flex items-center gap-7 hover:bg-youtube-hover p-2 rounded-lg cursor-pointer">
+      <span className="flex flex-col items-center 2xl:flex-row gap-0 2xl:gap-7 hover:bg-youtube-hover p-2 rounded-lg cursor-pointer">
         <svg
           viewBox="0 0 24 24"
           preserveAspectRatio="xMidYMid meet"
@@ -74,11 +80,14 @@ const SidebarBox = () => {
             ></path>
           </g>
         </svg>
-        <a href="/" className="text-white">
+        <a
+          href="/"
+          className="text-white text-center mt-1 text-[.65rem] 2xl:text-base"
+        >
           Abonelikler
         </a>
       </span>
-      <span className="flex items-center gap-7 hover:bg-youtube-hover p-2 rounded-lg cursor-pointer">
+      <span className="flex flex-col items-center 2xl:flex-row gap-0 2xl:gap-7 hover:bg-youtube-hover p-2 rounded-lg cursor-pointer">
         <svg
           viewBox="0 0 24 24"
           preserveAspectRatio="xMidYMid meet"
@@ -98,11 +107,14 @@ const SidebarBox = () => {
             ></path>
           </g>
         </svg>
-        <a href="/" className="text-white">
+        <a
+          href="/"
+          className="text-white text-center mt-1 text-[.65rem] 2xl:text-base"
+        >
           Originals
         </a>
       </span>
-      <span className="flex items-center gap-7 hover:bg-youtube-hover p-2 rounded-lg cursor-pointer mb-4">
+      <span className="flex flex-col items-center 2xl:flex-row gap-0 2xl:gap-7 hover:bg-youtube-hover p-2 rounded-lg cursor-pointer">
         <svg
           viewBox="0 0 24 24"
           preserveAspectRatio="xMidYMid meet"
@@ -122,8 +134,38 @@ const SidebarBox = () => {
             ></path>
           </g>
         </svg>
-        <a href="/" className="text-white">
+        <a
+          href="/"
+          className="text-white text-[.65rem] mt-1 text-center 2xl:text-base whitespace-nowrap"
+        >
           YouTube Music
+        </a>
+      </span>
+      <span className="flex flex-col items-center 2xl:flex-row gap-0 2xl:gap-7 hover:bg-youtube-hover p-2 rounded-lg cursor-pointer mb-4">
+        <svg
+          viewBox="0 0 24 24"
+          preserveAspectRatio="xMidYMid meet"
+          focusable="false"
+          style={{
+            pointerEvents: "none",
+            display: "block",
+            width: "25px",
+            height: "25px",
+          }}
+          fill="#fff"
+        >
+          <g class="style-scope yt-icon">
+            <path
+              d="M11,7l6,3.5L11,14V7L11,7z M18,20H4V6H3v15h15V20z M21,18H6V3h15V18z M7,17h13V4H7V17z"
+              class="style-scope yt-icon"
+            ></path>
+          </g>
+        </svg>
+        <a
+          href="/"
+          className="text-white text-center mt-1 text-[.65rem] 2xl:text-base"
+        >
+          Kitaplık
         </a>
       </span>
     </div>
