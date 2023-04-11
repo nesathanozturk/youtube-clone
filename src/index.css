@@ -17,7 +17,6 @@ body {
 }
 
 .wrapper {
-  height: calc(100% - theme("spacing.24"));
   @apply w-full flex;
 }
 
