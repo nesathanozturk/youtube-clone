@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="w-full bg-youtube py-2 px-4 md:px-6">
       <div className="w-full flex justify-between items-center">
-        <div className="flex justify-center items-center gap-x-2">
+        <div className="flex justify-center items-center gap-x-4 mr-4 md:mr-0">
           <span className="w-10 h-10 flex justify-center items-center rounded-full hover:bg-youtube-hover">
             <MenuIcon
               sx={{ fontSize: "26px", color: "white", cursor: "pointer" }}
@@ -101,7 +101,7 @@ const Navbar = () => {
             <MicIcon size={20} />
           </span>
         </div>
-        <div className="flex justify-center items-center gap-2 md:gap-3">
+        <div className="flex justify-center items-center xs:gap-0 sm:gap-2 md:gap-3">
           <span className="w-12 h-10 md:w-10 flex justify-center items-center rounded-full hover:bg-youtube-hover md:hidden cursor-pointer">
             <SearchIcon className="cursor-pointer text-[#f4f4f4]" />
           </span>
@@ -125,7 +125,7 @@ const Navbar = () => {
               </g>
             </svg>
           </span>
-          <span className="w-12 h-10 md:w-10 flex justify-center items-center rounded-full hover:bg-youtube-hover">
+          <span className="w-12 h-10 md:w-10 text-sm flex justify-center items-center rounded-full hover:bg-youtube-hover">
             <NotificationsNoneIcon
               size={20}
               className="text-white cursor-pointer"
@@ -134,7 +134,7 @@ const Navbar = () => {
           <img
             src="https://yt3.ggpht.com/yti/AHXOFjVUv9n4xuGAVyc0I0O3bdikXSIxvtL-uQ9lBA=s88-c-k-c0x00ffffff-no-rj-mo"
             alt="Neşathan Öztürk"
-            className="w-8 h-8 rounded-full cursor-pointer"
+            className="w-6 h-6 md:w-8 md:h-8 rounded-full cursor-pointer"
           />
         </div>
       </div>
