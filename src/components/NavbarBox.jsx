@@ -1,6 +1,6 @@
 const NavbarBox = () => {
   return (
-    <div className="w-full mt-6 hidden sm:flex items-center gap-3 ml-[70px] text-white text-sm font-medium pb-4 overflow-hidden">
+    <div className="w-full mt-6 hidden sm:flex items-center gap-3 ml-[70px] text-white text-sm font-medium pb-4 overflow-hidden 2xl:ml-[90px]">
       <a
         href=""
         className="w-16 h-[1.8rem] bg-white text-center rounded-lg p-1 text-black"

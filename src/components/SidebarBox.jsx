@@ -19,7 +19,7 @@ const SidebarBox = () => {
         </svg>
         <a
           href="/"
-          className="text-white text-center mt-1 font-medium text-[.55rem] md:text-[.65rem] 2xl:text-base whitespace-nowrap"
+          className="text-white text-center mt-1 font-medium text-[.55rem] md:text-[.65rem] 2xl:text-sm whitespace-nowrap"
         >
           Ana Sayfa
         </a>
@@ -42,7 +42,7 @@ const SidebarBox = () => {
         </svg>
         <a
           href="/"
-          className="text-white text-center mt-1 text-[.55rem] md:text-[.65rem] 2xl:text-base"
+          className="text-white text-center mt-1 text-[.55rem] md:text-[.65rem] 2xl:text-sm"
         >
           Shorts
         </a>
@@ -65,7 +65,7 @@ const SidebarBox = () => {
         </svg>
         <a
           href="/"
-          className="text-white text-center mt-1 text-[.55rem] md:text-[.65rem] 2xl:text-base"
+          className="text-white text-center mt-1 text-[.55rem] md:text-[.65rem] 2xl:text-sm"
         >
           Abonelikler
         </a>
@@ -88,7 +88,7 @@ const SidebarBox = () => {
         </svg>
         <a
           href="/"
-          className="text-white text-center mt-1 text-[.55rem] md:text-[.65rem] 2xl:text-base"
+          className="text-white text-center mt-1 text-[.55rem] md:text-[.65rem] 2xl:text-sm"
         >
           Originals
         </a>
@@ -111,7 +111,7 @@ const SidebarBox = () => {
         </svg>
         <a
           href="/"
-          className="text-white text-[.55rem] md:text-[.65rem] mt-1 text-center 2xl:text-base whitespace-nowrap"
+          className="text-white text-[.55rem] md:text-[.65rem] mt-1 text-center 2xl:text-sm whitespace-nowrap"
         >
           YouTube Music
         </a>
@@ -134,7 +134,7 @@ const SidebarBox = () => {
         </svg>
         <a
           href="/"
-          className="text-white text-center mt-1 text-[.55rem] md:text-[.65rem] 2xl:text-base"
+          className="text-white text-center mt-1 text-[.55rem] md:text-[.65rem] 2xl:text-sm"
         >
           Kitaplık
         </a>
