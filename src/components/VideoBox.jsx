@@ -2,12 +2,12 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 
 const VideoBox = () => {
   return (
-    <div className="w-full md:w-[320px] md:h-72 lg:w-[340px] lg:h-72">
+    <div className="w-full md:max-w-[320px] md:max-h-72 lg:max-w-[340px] 2xl:w-[85%] lg:max-h-72">
       <div className="container group">
         <img
           src="https://i.ytimg.com/vi/yKNxeF4KMsY/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC6cwBse6xhHEeiEzdadIsABYG4Xg"
           alt="Coldplay - Yellow (Official Video)"
-          className="w-full max-h-48 md:h-52 rounded-xl cursor-pointer"
+          className="w-full max-h-48 md:max-h-52 rounded-xl cursor-pointer"
         />
         <div className="w-full flex justify-between gap-2 mt-4">
           <div className="flex gap-2">
