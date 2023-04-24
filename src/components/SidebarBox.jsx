@@ -1,7 +1,7 @@
 const SidebarBox = () => {
   return (
-    <div className="flex justify-center items-center flex-col gap-3 2xl:border-b 2xl:border-[#565656] mb-4">
-      <span className="flex flex-col items-center justify-center 2xl:flex-row gap-0 2xl:gap-7 p-2 2xl:bg-youtube-hover rounded-lg cursor-pointer hover:bg-youtube-hover">
+    <div className="flex justify-center items-center flex-col gap-3 mb-4">
+      <span className="flex flex-col items-center justify-center p-2 hover rounded-lg cursor-pointer hover:bg-youtube-hover">
         <svg
           viewBox="0 0 24 24"
           preserveAspectRatio="xMidYMid meet"
@@ -24,7 +24,7 @@ const SidebarBox = () => {
           Ana Sayfa
         </a>
       </span>
-      <span className="flex flex-col items-center 2xl:flex-row gap-0 2xl:gap-7 hover:bg-youtube-hover p-2 rounded-lg cursor-pointer">
+      <span className="flex flex-col items-center gap-0 hover:bg-youtube-hover p-2 rounded-lg cursor-pointer">
         <svg
           viewBox="0 0 24 24"
           preserveAspectRatio="xMidYMid meet"
@@ -47,7 +47,7 @@ const SidebarBox = () => {
           Shorts
         </a>
       </span>
-      <span className="flex flex-col items-center 2xl:flex-row gap-0 2xl:gap-7 hover:bg-youtube-hover p-2 rounded-lg cursor-pointer">
+      <span className="flex flex-col items-center gap-0 hover:bg-youtube-hover p-2 rounded-lg cursor-pointer">
         <svg
           viewBox="0 0 24 24"
           preserveAspectRatio="xMidYMid meet"
@@ -70,7 +70,7 @@ const SidebarBox = () => {
           Abonelikler
         </a>
       </span>
-      <span className="flex flex-col items-center 2xl:flex-row gap-0 2xl:gap-7 hover:bg-youtube-hover p-2 rounded-lg cursor-pointer">
+      <span className="flex flex-col items-center gap-0 hover:bg-youtube-hover p-2 rounded-lg cursor-pointer">
         <svg
           viewBox="0 0 24 24"
           preserveAspectRatio="xMidYMid meet"
@@ -93,7 +93,7 @@ const SidebarBox = () => {
           Originals
         </a>
       </span>
-      <span className="flex flex-col items-center 2xl:flex-row gap-0 2xl:gap-7 hover:bg-youtube-hover p-2 rounded-lg cursor-pointer">
+      <span className="flex flex-col items-center gap-0 hover:bg-youtube-hover p-2 rounded-lg cursor-pointer">
         <svg
           viewBox="0 0 24 24"
           preserveAspectRatio="xMidYMid meet"
@@ -116,7 +116,7 @@ const SidebarBox = () => {
           YouTube Music
         </a>
       </span>
-      <span className="flex flex-col items-center 2xl:flex-row gap-0 2xl:gap-7 hover:bg-youtube-hover p-2 rounded-lg cursor-pointer mb-4">
+      <span className="flex flex-col items-center gap-0 hover:bg-youtube-hover p-2 rounded-lg cursor-pointer mb-4">
         <svg
           viewBox="0 0 24 24"
           preserveAspectRatio="xMidYMid meet"
